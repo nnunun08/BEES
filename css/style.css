@@ -111,12 +111,60 @@ html {
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
 }
+.carousel-item .boxTop {
+  animation-name: boxTop;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+.carousel-item .move-obj1 {
+  animation-name: move-obj1;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+.carousel-item .move-obj2 {
+  animation-name: move-obj2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+.carousel-item .move-obj3 {
+  animation-name: move-obj3;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
 
 @keyframes move {
+  100% {
+    transform: translateY(4%);
+  }
+}
+@keyframes boxTop {
+  100% {
+    transform: translate(-1%, 3%) rotate(-3deg);
+  }
+}
+@keyframes move-obj1 {
   0% {
     transform: translateY(0%);
   }
   100% {
-    transform: translateY(4%);
+    transform: translate(4%, -2.5%) rotate(7deg);
+  }
+}
+@keyframes move-obj2 {
+  100% {
+    transform: translate(0, -2%) rotate(-15deg);
+  }
+}
+@keyframes move-obj3 {
+  100% {
+    transform: translate(-4%, -1.5%) rotate(-10deg);
   }
 }/*# sourceMappingURL=style.css.map */
