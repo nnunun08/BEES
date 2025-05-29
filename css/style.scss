@@ -140,6 +140,50 @@ html {
       animation-iteration-count: infinite;
       animation-direction: alternate-reverse;
     }
+
+    .screen {
+      mix-blend-mode: screen;
+      opacity: 0;
+    }
+
+    .plash1 {
+      animation-name: plash1;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    .plash2 {
+      animation-name: plash2;
+      animation-duration: 1.2s;
+      animation-delay: 0.4s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    .plash3 {
+      animation-name: plash3;
+      animation-duration: 0.6s;
+      animation-delay: 0.6s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    .plash4 {
+      animation-name: plash4;
+      animation-duration: 0.7s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    .plash5 {
+      animation-name: plash5;
+      animation-duration: 0.5s;
+      animation-delay: 0.8s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
 }
 
 
@@ -179,3 +223,8 @@ html {
     transform: translate(-4%,-1.5%) rotate(-10deg);
   }
 }
+@keyframes plash1 {0%{opacity: 0;}100% {opacity: 1;}}
+@keyframes plash2 {0%{opacity: 0;}100% {opacity: 1;}}
+@keyframes plash3 {0%{opacity: 0;}100% {opacity: 1;}}
+@keyframes plash4 {0%{opacity: 0;}100% {opacity: 1;}}
+@keyframes plash5 {0%{opacity: 0;}100% {opacity: 1;}}
